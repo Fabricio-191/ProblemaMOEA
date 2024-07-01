@@ -142,7 +142,7 @@ public class MOEAService {
                 .withAlgorithm("NSGAIII")
                 .withProperty("populationSize", 100)
                 // .distributeOn(4)
-                .withMaxTime(10000);
+                .withMaxTime(60000);
 
         NondominatedPopulation result = executor.run();
 
